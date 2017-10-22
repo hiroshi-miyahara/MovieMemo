@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieMain" >
+
+    <LinearLayout
+        android:id="@+id/info_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/info_txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:background="#dddddd"
+            android:padding="8.0px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="8.0px"
+            android:focusable="true"
+            android:text="@string/txt_space" />
+
+        <TextView
+            android:id="@+id/info_txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:background="#dddddd"
+            android:padding="8.0px" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/info_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_line_1" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/info_line_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/info_txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0px"
+                    android:textSize="16sp"
+                    android:text="@string/info_txt_title" />
+
+                <EditText
+                    android:id="@+id/info_edit_title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:padding="8.0px"
+                    android:maxLines="1"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/info_line_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/info_line_2" >
+
+                <TextView
+                    android:id="@+id/info_txt_theater"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_txt_theater"
+                    android:textSize="16sp"
+                    android:padding="8.0px" />
+
+                <Spinner
+                    android:id="@+id/info_spin_theater"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0px" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/info_line_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/info_line_3" >
+
+                <TextView
+                    android:id="@+id/info_txt_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_txt_fee"
+                    android:textSize="16sp"
+                    android:padding="8.0px"
+                    android:layout_alignParentLeft="true" />
+
+                <EditText
+                    android:id="@+id/info_edit_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:padding="8.0px"
+                    android:layout_toRightOf="@+id/info_txt_fee" />
+
+                <TextView
+                    android:id="@+id/info_txt_memo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_txt_memo"
+                    android:textSize="16sp"
+                    android:padding="8.0px"
+                    android:layout_toRightOf="@+id/info_edit_fee" />
+
+                <EditText
+                    android:id="@+id/info_edit_memo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:padding="8.0px"
+                    android:layout_toRightOf="@+id/info_txt_memo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/info_line_4" >
+
+                <TextView
+                    android:id="@+id/info_txt_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0px"
+                    android:textSize="16sp"
+                    android:text="@string/info_txt_desc"
+                    android:layout_alignParentLeft="true" />
+
+                <Spinner
+                    android:id="@+id/info_spin_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/info_spin_score"
+                    android:padding="8.0px"
+                    android:layout_toRightOf="@+id/info_txt_desc" />
+
+                <TextView
+                    android:id="@+id/info_label_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0px"
+                    android:textSize="16sp"
+                    android:text="@string/info_txt_country"
+                    android:layout_toRightOf="@+id/info_spin_score" />
+
+                <TextView
+                    android:id="@+id/info_txt_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8.0px"
+                    android:background="#dddddd"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@+id/info_label_country" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/info_line_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/info_btn_cancel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8.0px"
+            android:text="@string/info_btn_cancel" />
+
+        <Button
+            android:id="@+id/info_btn_ok"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8.0px"
+            android:text="@string/info_btn_ok" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_scroll"
+        android:layout_above="@id/info_line_5" >
+
+        <EditText
+            android:id="@+id/info_edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8.0px"
+            android:maxLength="65536"
+            android:inputType="textMultiLine" />
+
+    </ScrollView>
+
+</RelativeLayout>

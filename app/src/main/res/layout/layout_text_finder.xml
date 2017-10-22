@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finder_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MovieMemo" >
+
+    <Button
+        android:id="@+id/finder_btn_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8.0px"
+        android:text="@string/finder_btn_find" />
+
+    <TextView
+        android:id="@+id/finder_txt_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8.0px"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/finder_btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8.0px"
+        android:text="@string/finder_btn_clear" />
+
+    <CheckBox
+        android:id="@+id/finder_btn_memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/finder_btn_memo" />
+
+</LinearLayout>

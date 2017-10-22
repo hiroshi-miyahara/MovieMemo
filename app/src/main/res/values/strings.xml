@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MovieMemo</string>
+    <string name="finder_btn_find">検索</string>
+    <string name="finder_btn_clear">消去</string>
+    <string name="finder_btn_memo">メモ検索</string>
+    <string name="btn_new">新規作成</string>
+    <string name="btn_close">閉じる</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="finder_btn_ok">OK</string>
+    <string name="finder_btn_cancel">Cancel</string>
+    <string name="finder_btn_Clear">Clear</string>
+    <string name="txt_filter">YEAR</string>
+    <string name="txt_Q">？</string>
+    <string name="txt_space"> </string>
+    <string name="info_txt_theater">劇場</string>
+    <string name="info_txt_title">題名</string>
+    <string name="info_txt_fee">料金</string>
+    <string name="info_txt_country">制作</string>
+    <string name="info_txt_memo">備考</string>
+    <string name="info_txt_desc">感想　評価：</string>
+    <string name="info_btn_ok">OK</string>
+    <string name="info_btn_cancel">Cancel</string>
+    <string name="info_btn_close">閉じる</string>
+    <string name="info_btn_save">保存</string>
+    <string name="info_title_theater">劇場の追加</string>
+    <string name="info_title_country">制作国の修正</string>
+    <string name="info_new_country">新規(カンマ区切りで複数指定)</string>
+    <string name="info_unknown">不明</string>
+    <string name="info_add">...</string>
+    <string name="info_menu_text">テキストファイルの読み込み</string>
+    <string name="info_menu_copy">この情報をコピーした新規データを作成する</string>
+    <string name="info_progress">統計処理の実行中</string>
+    <string name="no_image">NO IMAGE</string>
+    <string name="text_ok">OK</string>
+    <string name="text_close">CLOSE</string>
+    <string name="select_year">年</string>
+    <string name="select_theater">劇場</string>
+    <string name="select_country">制作</string>
+    <string name="txt_del_title">項目の削除</string>
+    <string name="txt_del_msg">を削除しますか</string>
+    <string name="prog_title">読み込み中</string>
+
+    <string name="menu_file">ファイル読み込み</string>
+    <string name="menu_clear">全データクリア</string>
+    <string name="menu_stat">統計情報表示</string>
+    <string name="menu_jump">指定位置に移動</string>
+    <string name="menu_quit">アプリの終了</string>
+    <string name="txt_dlog_title">外部ファイルの読み込み</string>
+    <string name="txt_dlog_msg">ファイルが見つからない</string>
+    <string name="txt_dlog_ext">単純テキストファイルの読み込み</string>
+    <string name="txt_dlog_no">新規の情報はコピー不可</string>
+    <string name="dlog_find_title">文字列検索</string>
+    <string name="dlog_find_msg">文字列を入力</string>
+    <string name="dlog_del_title">全項目の削除</string>
+    <string name="txt_quit_title">アプリケーションの終了</string>
+    <string name="txt_msg_quit">本当に終了しますか？</string>
+
+    <string name="txt_query_title">再確認</string>
+    <string name="txt_query_text">必要な許可がなければアプリケーションを実行できません</string>
+
+    <string name="dlog_jump_title">指定した番号へのジャンプ</string>
+    <string name="dlog_jump_msg">番号を入力</string>
+    <string name="dlog_jump_first">先頭</string>
+    <string name="dlog_jump_last">最終</string>
+    <string name="dlog_jump_num">指定</string>
+    <string name="dlog_jump_ok">OK</string>
+    <string name="dlog_jump_cancel">Cancel</string>
+
+    <string name="stat_txt_count">視聴本数</string>
+    <string name="stat_txt_fee">視聴料金(100円単位)</string>
+    <string name="stat_txt_score">評価分類</string>
+    <string name="stat_title_month">月別</string>
+    <string name="stat_title_score">評価別</string>
+    <string name="stat_title_week">曜日別</string>
+    <string name="stat_title_theater">劇場別</string>
+    <string name="stat_title_country">制作国別</string>
+    <string name="stat_txt_year">年</string>
+    <string name="stat_txt_total">合計</string>
+    <string name="stat_txt_theater">劇場</string>
+    <string name="stat_txt_country">制作</string>
+    <string name="countries">日米英独仏伊西蘭露墺中韓台印豪加</string>
+
+    <string-array name="sort_type">
+        <item>日付順</item>
+        <item>評価順</item>
+    </string-array>
+
+    <string-array name="info_spin_score">
+        <item>Ａ+</item>
+        <item>Ａ</item>
+        <item>Ａ-</item>
+        <item>Ｂ+</item>
+        <item>Ｂ</item>
+        <item>Ｂ-</item>
+        <item>Ｃ+</item>
+        <item>Ｃ</item>
+        <item>Ｃ-</item>
+        <item>Ｄ</item>
+        <item>Ｆ</item>
+        <item>－</item>
+    </string-array>
+
+    <string-array name="stat_month">
+        <item>１月</item>
+        <item>２月</item>
+        <item>３月</item>
+        <item>４月</item>
+        <item>５月</item>
+        <item>６月</item>
+        <item>７月</item>
+        <item>８月</item>
+        <item>９月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string-array name="stat_week">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+
+    <string-array name="stat_types">
+        <item>本数</item>
+        <item>料金</item>
+        <item>評価</item>
+    </string-array>
+
+</resources>

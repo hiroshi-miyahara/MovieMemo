@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sf_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#000000"
+    tools:context=".MovieMain" >
+
+    <TextView
+        android:id="@+id/movie_no"
+        android:layout_width="36dip"
+        android:layout_height="wrap_content"
+        android:textColor="#aaaaaa"
+        android:textSize="12sp"
+        android:gravity="right"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_date"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:textColor="#cccccc"
+        android:textSize="16sp"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_time"
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:textColor="#cccccc"
+        android:textSize="16sp"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_score"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:textColor="#ff4444"
+        android:textSize="18sp"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_country"
+        android:layout_width="32dip"
+        android:layout_height="wrap_content"
+        android:textColor="#88ff88"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+    <!-- 蛹ｺ蛻・ｊ邱・
+        <View android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999"
+            android:paddingRight="8.0px" />
+    -->
+    <TextView
+        android:id="@+id/movie_theater"
+        android:layout_width="128dip"
+        android:layout_height="wrap_content"
+        android:textColor="#8888ff"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_fee"
+        android:layout_width="48dip"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff88"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:gravity="right"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+    <TextView
+        android:id="@+id/movie_memo"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:paddingBottom="4.0px"
+        android:paddingRight="8.0px" />
+
+</LinearLayout>

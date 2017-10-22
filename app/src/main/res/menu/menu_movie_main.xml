@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_file"
+        android:title="@string/menu_file" />
+
+    <item
+        android:id="@+id/menu_stat"
+        android:title="@string/menu_stat" />
+
+    <item
+        android:id="@+id/menu_jump"
+        android:title="@string/menu_jump" />
+
+    <item
+        android:id="@+id/menu_clear"
+        android:title="@string/menu_clear" />
+
+    <item
+        android:id="@+id/menu_quit"
+        android:title="@string/menu_quit" />
+
+</menu>
